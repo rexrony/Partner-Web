@@ -1,0 +1,2008 @@
+/*
+Theme Name: Mms Gulf With Slider
+Theme URI: https://wordpress.org/themes/mmsgulf/
+Author: the happenize team
+Description: happenizecenter
+Version: 1.8
+Text Domain: mmsgulf
+*/
+.brand-overlay{background-color: rgba(0,0,0,0.5);padding-top:100px;}
+.slide-arrow a:hover{color:black !important;}
+.slide-arrow a{top: 50%;position:absolute;height: 30px;z-index: 200;background-color: white;color: black !important;padding: 6px 10px;}
+.slide-arrow .cycle-prev{left: 0;}
+.slide-arrow .cycle-next{right:0;}
+.entry-title{display:none;}
+
+/*Apply now form start*/
+.app-form option {
+	background:#000000;}
+html .app-form .formcraft-css .fc-form .form-page-content .form-element-type-customText:first-child{margin-top:0;}
+html .app-form .formcraft-css .fc-form .form-page-content .form-element-type-customText:first-child .customText-cover{padding-top:0;}
+html .Leasing-form.app-form .formcraft-css .fc-form .form-element-field7 input[type="text"]{min-height:41px;border-bottom:0;}
+html .Leasing-form.app-form .formcraft-css .fc-form .form-element-field8.form-element-type-customText{min-height: inherit;}
+html .Leasing-form.app-form .formcraft-css .fc-form .form-element-field8.form-element-type-customText .form-element-html{padding: 10px 15px;}
+html .Leasing-form.app-form .formcraft-css .fc-form .form-element-field23.form-element-type-customText{border-left:1px solid #838383;}
+html .Leasing-form.app-form .formcraft-css .fc-form .form-element-field47.form-element-type-customText{border-bottom:1px solid #838383;}
+html .Leasing-form.app-form .formcraft-css .fc-form .form-element-field92 .form-element-html{border-bottom:1px solid #838383;}
+html .Leasing-form.app-form .formcraft-css .fc-form .form-element-field94{border:none !important;}
+html .Leasing-form.app-form .formcraft-css .fc-form .form-element-field83{padding: 10px !important;}
+.ui-datepicker-calendar {
+    background: #000000;
+}
+#ui-datepicker-div.fc-datepicker .ui-datepicker-header {
+    background-color: #000000 !important;
+    border: 1px solid #ffffff;
+}
+#ui-datepicker-div.fc-datepicker select.ui-datepicker-month option, #ui-datepicker-div.fc-datepicker select.ui-datepicker-year option {
+  background-color: #000000;}
+html .formcraft-css .fc-form .form-element .error {
+  top: 45% !important;
+color:red !important;}
+.Leasing-form.app-form .form-element.form-element-field96 {
+    border: none !important;
+}
+
+.Leasing-form.app-form .form-element.form-element-field96 .form-element-html {
+    padding-top:0 !important;
+}
+
+html .Leasing-form .formcraft-css .fc-form .form-element-field96 .field-cover>div span {
+    color: #dedede !important;
+    background:none !important;
+}
+html .Leasing-form.app-form .formcraft-css .fc-form .form-element .fileupload-cover.field-cover .files-list li div {
+    padding-right: 38px;
+}
+.form-element.form-element-field84 {
+    padding: 0 15px;
+}
+/*Apply now form end*/
+
+.leasing-head h3{}
+.Leasing-form{}
+.Leasing-form .formcraft-css .fc-form .form-element .form-element-html input[type="text"]:focus,
+.Leasing-form .formcraft-css .fc-form .form-element .form-element-html textarea:focus{
+	border-color:#858585;
+}
+html .Leasing-form .formcraft-css .fc-form .form-element select,
+html .Leasing-form .formcraft-css .fc-form .form-element input[type="text"]{
+	background-color:transparent;
+	border-radius:0;
+	border-bottom:0;border-left:0;
+	border-color:#838383;min-height: 42px;
+}
+html .Leasing-form .formcraft-css .fc-form .form-element textarea{
+	background-color:transparent;
+	border-radius:0;
+	border-color:#838383;
+}
+html .Leasing-form .formcraft-css .fc-form.frame-hidden{margin:0 auto;width:100% !important;margin-top:30px;}
+html .Leasing-form .formcraft-css .fc-form .field-cover>span{display:none;}
+html .Leasing-form .formcraft-css .fc-form .form-element span.sub-label-false{display:none;}
+html .Leasing-form .formcraft-css .fc-form .form-element .form-element-html{padding-bottom:0;padding-left:0;padding-right:0;}
+html .Leasing-form .formcraft-css .fc-form .form-element .field-cover.customText-cover p{margin:0 !important;color:#dedede;font-size:16px;font-weight:300;}
+html .Leasing-form .formcraft-css .fc-form .field-cover>div{width:100%;}
+
+html .Leasing-form .formcraft-css .fc-form .form-element.form-element-field1{margin-top:0 !important;}
+html .Leasing-form .formcraft-css .fc-form .form-element-field1.form-element-type-customText{border-bottom: 1px solid #838383 !important;top:10px;margin-bottom: 60px;}
+html .Leasing-form .formcraft-css .fc-form .form-element.form-element-type-customText{
+    border: 1px solid #838383;
+    position: relative;border-radius:0;border-bottom:0;
+}
+html .Leasing-form .formcraft-css .fc-form .form-element.form-element-type-customText .form-element-html{margin:0;padding: 10px 0;padding-left:15px;}
+html .Leasing-form .formcraft-css .fc-form .form-element.form-element-field1 .form-element-html{padding: 17% 0 17%;}
+
+
+html .Leasing-form .formcraft-css .fc-form .form-element-field1 .field-cover{padding:0 !important;}
+html .Leasing-form .formcraft-css .fc-form .form-element .field-cover>div span{color:#dedede;font-weight:300;font-size:16px;}
+html .Leasing-form .formcraft-css .fc-form .form-element-field2{padding-left:15px;}
+html .Leasing-form .formcraft-css .fc-form .form-element-field3 .form-element-html{text-align:right;margin: 0 0 0 auto;}
+html .Leasing-form .formcraft-css .fc-form .form-element-field3 .field-cover>div{width:100%;}
+html .Leasing-form .formcraft-css .fc-form .form-element-field3{margin-top:-69px;display: block;float: right;z-index:103;}
+
+html .Leasing-form .formcraft-css .fc-form .form-element-field3 input[type="text"] {border-bottom: 1px solid #858585 ;min-height:25px;border-top: 0;border-left: 0;border-right: 0; padding: 0;}
+
+html .Leasing-form .formcraft-css .fc-form .form-element-field7 input[type="text"]{min-height: 63px;border-bottom:1px solid #838383;}
+
+html .Leasing-form .formcraft-css .fc-form .form-element-field8.form-element-type-customText{min-height: 100px;}
+html .Leasing-form .formcraft-css .fc-form .form-element-field8.form-element-type-customText .form-element-html{padding: 47px 0;padding-left: 15px;}
+
+html .Leasing-form .formcraft-css .fc-form .form-element-field9 .checkbox-cover>div label{display:block;padding-left: 2%;}
+html .Leasing-form .formcraft-css .fc-form .form-element-field9{border-right:1px solid #838383;}
+
+html .Leasing-form .formcraft-css .fc-form .form-element-field58{min-height:63px;border-top: 1px solid #838383;border-radius: 0;border-right: 1px solid #838383;}
+html .Leasing-form .formcraft-css .fc-form .form-element-field58 .form-element-html{padding: 10px 0;padding-left: 8%;}
+
+html .Leasing-form .formcraft-css .fc-form .form-element-field63 input[type="text"],
+html .Leasing-form .formcraft-css .fc-form .form-element-field64 input[type="text"],
+html .Leasing-form .formcraft-css .fc-form .form-element-field66 input[type="text"],
+html .Leasing-form .formcraft-css .fc-form .form-element-field67 input[type="text"]{
+min-height: 63px;
+}
+
+html .Leasing-form .formcraft-css .fc-form .form-element-field66 input[type="text"],
+html .Leasing-form .formcraft-css .fc-form .form-element-field67 input[type="text"]{
+	border-bottom:1px solid #838383;
+}
+
+
+html .Leasing-form .formcraft-css .fc-form .form-element-field70.form-element-type-customText,
+html .Leasing-form .formcraft-css .fc-form .form-element-field72.form-element-type-customText,
+html .Leasing-form .formcraft-css .fc-form .form-element-field74.form-element-type-customText,
+html .Leasing-form .formcraft-css .fc-form .form-element-field81.form-element-type-customText,
+html .Leasing-form .formcraft-css .fc-form .form-element-field80.form-element-type-customText,
+html .Leasing-form .formcraft-css .fc-form .form-element-field82.form-element-type-customText,
+html .Leasing-form .formcraft-css .fc-form .form-element-field78.form-element-type-customText{border:0;}
+
+html .Leasing-form .formcraft-css .fc-form .form-element-field70 .field-cover.customText-cover,
+html .Leasing-form .formcraft-css .fc-form .form-element-field72 .field-cover.customText-cover,
+html .Leasing-form .formcraft-css .fc-form .form-element-field74 .field-cover.customText-cover,
+html .Leasing-form .formcraft-css .fc-form .form-element-field80 .field-cover.customText-cover,
+html .Leasing-form .formcraft-css .fc-form .form-element-field81 .field-cover.customText-cover,
+html .Leasing-form .formcraft-css .fc-form .form-element-field82 .field-cover.customText-cover,
+html .Leasing-form .formcraft-css .fc-form .form-element-field78 .field-cover.customText-cover{padding-left: 5px;}
+
+html .Leasing-form .formcraft-css .fc-form .form-element-field81.form-element-type-customText{margin-top:35px;}
+
+html .Leasing-form .formcraft-css .fc-form .form-element-field73 input[type="text"],
+html .Leasing-form .formcraft-css .fc-form .form-element-field75 input[type="text"],
+html .Leasing-form .formcraft-css .fc-form .form-element-field77 input[type="text"]{
+	border-top:0;border-left:0;border-right:0;padding: 0;width: 90%;position: relative;top: 3px;border-bottom: 1px solid #838383;min-height: 25px;
+}
+html .Leasing-form .formcraft-css .fc-form .form-element-field77 input[type="text"]{width:100%;}
+
+html .Leasing-form .formcraft-css .fc-form .form-element-field71{margin-bottom:30px;}
+
+html .Leasing-form .formcraft-css .fc-form .form-element-field79 .fileupload-cover.field-cover>div,
+html .Leasing-form .formcraft-css .fc-form .form-element-field83 .fileupload-cover.field-cover>div{
+	padding:0;
+}
+
+html .Leasing-form .formcraft-css .fc-form .form-element-field79 .fileupload-cover.field-cover .button-file,
+html .Leasing-form .formcraft-css .fc-form .form-element-field83 .fileupload-cover.field-cover .button-file{
+	background-color: #dedede;
+    height: 17px;
+    line-height: 17px;
+    color: black;
+    text-shadow: none;
+    display: initial;
+    position: relative;
+    top: 0;
+    font-size: 11px;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 700;
+    padding: 1px 10px;
+}
+html .Leasing-form .formcraft-css .fc-form .form-element-field79 .fileupload-cover.field-cover .button-file span,
+html .Leasing-form .formcraft-css .fc-form .form-element-field83 .fileupload-cover.field-cover .button-file span{
+	color:black;
+	font-size: 11px;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 700;
+}
+html .Leasing-form .formcraft-css .fc-form .form-element .fileupload-cover.field-cover .button-file .icon-upload-cloud{display:none;}
+
+html .Leasing-form .formcraft-css .fc-form .form-element-field19.form-element-type-customText,
+html .Leasing-form .formcraft-css .fc-form .form-element-field23.form-element-type-customText,
+html .Leasing-form .formcraft-css .fc-form .form-element-field27.form-element-type-customText,
+html .Leasing-form .formcraft-css .fc-form .form-element-field33.form-element-type-customText,
+html .Leasing-form .formcraft-css .fc-form .form-element-field37.form-element-type-customText,
+html .Leasing-form .formcraft-css .fc-form .form-element-field41.form-element-type-customText,
+html .Leasing-form .formcraft-css .fc-form .form-element-field48.form-element-type-customText,
+html .Leasing-form .formcraft-css .fc-form .form-element-field50.form-element-type-customText{
+	border-left:0;
+}
+
+html .Leasing-form .formcraft-css .fc-form .form-element-field68.form-element-type-customText{min-height:96px;border-bottom:1px solid #838383}
+
+html .Leasing-form .formcraft-css .fc-form .form-element-field69{margin-bottom:40px;border-right: 1px solid #939393;
+    border-radius: 0;
+    border-bottom: 1px solid #838383;}
+html .Leasing-form .formcraft-css .fc-form .form-element-field69 .form-element-html{padding: 7px 15px;}
+
+html .Leasing-form .formcraft-css .fc-form .form-element-field85.form-element-type-customText,
+html .Leasing-form .formcraft-css .fc-form .form-element-field86.form-element-type-customText{border-top: 0;min-height: 42px;}
+
+.Leasing-form .form-element-field51 input, .Leasing-form .form-element-field52 input, .Leasing-form .form-element-field53 input, .Leasing-form .form-element-field54 input {padding-left: 17px;}
+html .Leasing-form .formcraft-css .fc-form .form-element .field-cover>div input[type="checkbox"]{
+	background-color: transparent;
+    border-radius: 0;
+    height: 16px;
+    width: auto;
+  border-color: #838383;
+}
+
+html .Leasing-form .formcraft-css .fc-form .form-element .submit-cover.animate-false .submit-button{
+	font-weight: 700;
+    font-family: 'Work Sans', sans-serif;
+    margin-top: 15px;
+    padding: 7px 15px;
+    border-radius: 0 !important;
+}
+/*****************************FORM END*********************************/
+
+header .iner-wrap{height:100vh;background-color: rgba(0, 0, 0, 0.5);}
+header .container-fluid{padding:0;}
+.slidediv{width:100%;}
+.slide-back-img{background-image:cover;background-attachment:fixed;background-repeat:no-repeat;background-size:cover;}
+*{ outline:none; }
+ul, li{ list-style:none; }
+ul { padding-left: 0px; }
+a, a:hover, a:focus { text-decoration: none; }
+textarea{ resize:none; }
+body {background-color:#000000;
+	font-family: 'Montserrat', sans-serif;
+}
+.dia {
+    width: 291px;
+    height: 290px;
+    transform: rotate(45deg);
+    border: 3px solid #2a2a2a;
+    margin: 0 auto;
+    overflow: hidden;
+    position: relative;
+    border-radius: 4px;
+    -webkit-transform: rotate(45deg);
+    top: 70px;
+}
+.vm p {
+    margin: 0px;
+    padding: 0px 13%;
+    white-space: normal;
+}
+.mainslid {
+    width: 408px;
+    height: 425px;
+}
+.mainslid .fm {
+  background-color:black;
+  background-image:none !important;
+    background-position: top center;
+    background-size: cover;
+    width: 423px;
+    height: 423px;
+    transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+    position: absolute;
+    top: -71px;
+    left: -68px;
+    right: 0px;
+    display: table;
+}
+.vm {
+    display: table-cell;
+    vertical-align: middle;
+    position: relative;
+    z-index: 9;
+    text-align: center;
+}
+.con img.ajax-loader {
+    position: absolute;
+    top: 32px;
+}
+.rotiner img {
+    width: 137px;
+    height: auto;
+}
+ #map {
+    width: 100%;
+    height: 100%;
+}
+.dslide { 
+    margin: auto;
+    display: flex;
+    display: -webkit-box!important; 
+}
+.slideshow { 
+	margin: 0 auto; 
+	display: table;
+	display: flex; 
+}
+.fft {
+    height: 1210px !important;
+}
+ .clip-svg-inline {
+  -webkit-clip-path: url("#clipPolygon"); 
+  clip-path: url("#clipPolygon");
+  background-color: #000000;
+  position: absolute;
+  width: 100%;
+  height: 85%;
+}
+div.wpcf7-response-output {
+    color: #ffffff;
+    clear: both;
+    font-size: 12px;
+    font-weight: 300;
+    border: 1px solid #f7e700;
+    width: 60%;
+    margin: 0 auto;
+    bottom: -50px;
+    position: absolute;
+    left: 0px;
+    right: 0px;
+}
+ .clip-svg-inline2 {
+  -webkit-clip-path: url("#clip-polygon2");
+    clip-path: url("#clip-polygon2");
+        background-color: #000000;
+    position: absolute;
+    right: -12px;
+    bottom: 0px;
+    text-align: right;
+    overflow: hidden;
+    width: 46%;
+    height: 62%;
+    z-index: 2;
+}
+
+.parallax-container.fft{ position:relative; }
+.parallax-container.fft:after{ content:''; position:absolute;top:0; right:0; left:0; width:100%; height:100px; z-index:-1; background:#000000; }
+.clip-svg-inline2 iframe {
+    border: 0;
+    width: 100%;
+    height: 100%;
+}
+svg.clip-svg, svg.clip-svg2 {
+  width: 0;
+  height: 0;
+}
+.condetails {
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    width: 100%;
+    bottom: 0px;
+    z-index: 1;
+}
+.dsvg {
+    height: 0px;
+    width: 0px;
+}
+.clip-svg {
+  width: 0;
+  height: 0;
+}
+.page .foot {
+    height: 1175px!important;
+    position: relative;
+}
+.page .foot:after {
+    left: -13.2%;
+}
+.hidden {
+	visibility: hidden;
+}
+.careers-page {
+    background-color: #000000;
+	position: relative;
+    z-index: 9;
+	padding-top: 90px;
+}
+.last-d {
+    background-color: #ffffff;
+	margin-top: 23px;
+	padding: 18px 10px 22px;
+}
+.last-d p {
+    margin: 0px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 20px;
+    color: #000000;
+}
+.t-head h1 {
+    text-align: center;
+    color: #ffffff;
+    font-size: 40px;
+    font-weight: 300;
+    font-family: 'Lato', sans-serif;
+    margin: 0px;
+	padding: 10px;
+	text-transform: uppercase;
+}
+.t-head {
+    background-color: rgba(0,0,0,.5);
+    margin-top: -64px;
+}
+.careers-page h2 {
+    font-size: 29px;
+    font-weight: 300;
+    font-family: 'Lato', sans-serif;
+    color: #b4b4b4;
+    margin: 0px;
+    text-transform: initial;
+}
+.careers-page label {
+    color: #b4b4b4;
+    font-size: 14px;
+    font-weight: 300;
+    font-family: 'Lato', sans-serif;
+    text-transform: inherit;
+    margin: 0px 10px 0px 0px;
+}
+.sty {
+    border-top: 1px solid #888888;
+    border-bottom: 1px solid #888888;
+    padding: 22px 0px;
+    margin: 21px 0px;
+}
+.sty select, .sty input {
+    min-width: 241px;
+    width: 100%;
+    border: 1px solid #888888;
+    border-radius: 0px;
+    background-color: transparent;
+    font-size: 14px;
+    color: #b4b4b4;
+    font-weight: 300;
+    font-family: 'Lato', sans-serif;
+    height: 41px;
+}
+.sty .form-group {
+    margin-right: 5px;
+}
+.btn-sty {
+    font-size: 17px;
+    font-weight: 600;
+    text-transform: capitalize;
+    font-family: 'Lato', sans-serif;
+    background-color: #ffffff;
+    border: 0px;
+    padding: 8.5px 92px;
+    border-radius: 0px;
+}
+.careers-page h3 {
+    font-family: 'Lato', sans-serif;
+    color: #b4b4b4;
+    font-weight: 300;
+    font-size: 21px;
+    text-transform: inherit;
+    margin: 0px 0px 20px;
+}
+.careers-page h5 {
+    margin: 0px;
+    font-family: 'Lato', sans-serif;
+    text-transform: uppercase;
+    font-weight: 300;
+    font-size: 15px;
+    color: #b4b4b4;
+    background-color: #1d1d1d;
+    padding: 13.5px 16px;
+}
+.careers-page .panel {
+    margin: 0px;
+    border-radius: 0px;
+    background-color: transparent;
+    border: 0px;
+}
+.careers-page .panel-heading {
+    border-radius: 0px;
+    background-color: transparent;
+    border: 0px;
+	padding: 0px;
+}
+.careers-page .panel-collapse {
+    border: 1px solid #202020;
+}
+.careers-page .panel-title a {
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+    color: #b4b4b4 !important;
+	display: block;
+    padding: 13px 16px;
+	background-color: #121212;
+	position: relative;
+}
+.careers-page .panel-title a:after {
+    content: "";
+    float: right;
+    background-image: url('images/minus.png');
+    width: 16px;
+    height: 16px;
+    display: block;
+}
+.careers-page .panel-title a.collapsed:after {
+    background-image: url('images/plus.png');
+}
+.careers-page .panel-title {
+    position: relative;
+}
+.careers-page .panel-title a.collapsed {
+    background-color: transparent;
+    border-left: 1px solid #202020;
+    border-right: 1px solid #202020;
+	border-bottom: 1px solid #202020;
+}
+.tabsul li {
+    font-family: 'Lato', sans-serif;
+    font-size: 15px;
+    font-weight: 300;
+    text-transform: capitalize;
+    color: #b4b4b4;
+    padding: 10px 17px;
+}
+ul.tabsul {
+	margin: 0px;
+	padding: 30px;
+} 
+.tabsul li:nth-child(odd) {
+    background-color: #1d1d1d;
+}
+.tabsul li:nth-child(even) {
+    background-color: #161616;
+}
+.btn-post {
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+    font-size: 15px;
+    color: #ffffff;
+    border: 0px;
+    background-color: #000000;
+    border-radius: 0px;
+    text-transform: uppercase;
+    padding: 8px 26px;
+	margin-top: 5px;
+}
+.brands-page {
+  background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-color: #000000;
+	position: relative;
+    z-index: 9;
+}
+.brands-page .col-md-4 {
+    margin-bottom: 13%;
+}
+.diamond {
+    width: 250px;
+    height: 250px;
+    transform: rotate(45deg);
+    border: 3px solid #2a2a2a;
+    margin: 0 auto;
+    overflow: hidden;
+    position: relative;
+    border-radius: 4px;
+	-webkit-transform: rotate(45deg);
+}
+.rot {
+  background-color:transparent;
+  background-image:none !important;
+    background-position: top center;
+    background-size: cover;
+    width: 345px;
+    height: 340px;
+    transform: rotate(-45deg);
+	-webkit-transform: rotate(-45deg);
+    position: absolute;
+    top: -45px;
+    left: -45px;
+    right: 0px;
+	display: table;
+}
+.rotiner {
+    display: table-cell;
+    vertical-align: middle;
+    position: relative;
+    z-index: 9;
+    text-align: center;
+  cursor:pointer;
+}
+.page .rotiner p {
+    font-family: 'Lato', sans-serif;
+    font-weight: 100;
+    font-size: 13px;
+    color: #ffffff;
+    padding: 0px 25%;
+    text-align: center;
+    line-height: 16px;
+    margin: 0px;
+}
+.page footer {
+    /*margin-top: -241px;*/
+}
+.header-main {
+	height: 799px;
+}
+.wrapper {
+	overflow: hidden;
+	width: 100%;
+}
+h1.page-title  {
+    font-size: 24px;
+    text-transform: capitalize;
+}
+header.page-header {
+    margin: 0px;
+}
+h2.entry-title a {
+    font-size: 18px;
+    text-transform: capitalize;
+    font-weight: 500;
+}
+.search.search-results p {
+    color: #333333;
+    font-weight: 400;
+    line-height: 22px;
+    font-size: 15px;
+    margin-bottom: 15px;
+}
+.page p {
+    color: #333333;
+    font-weight: 400;
+    line-height: 22px;
+    font-size: 15px;
+}
+.page h1.entry-title {
+    font-size: 24px;
+    text-transform: capitalize;
+}
+.search.search-results article a img {
+    display: none;
+}
+.search section#primary {
+    margin-bottom: 50px;
+}
+.search.search-results h2.entry-title {
+    margin-bottom: 15px;
+    font-size: inherit;
+    margin-top: 10px;
+}
+h1#er {
+    font-size: 10em;
+    padding-bottom: 20px;
+}
+.error404 p {
+    font-size: 18px;
+    margin-bottom: 25px;
+	color: #333333;
+}
+.error404 .page-content {
+    clear: both;
+    text-align: center;
+}
+.search.search-no-results input.search-field, .error404 input.search-field {
+    border: 1px solid #e0e0e0;
+    height: 40px;
+    padding: 10px;
+    margin-left: 10px;
+    margin-right: -5px;
+}
+.search.search-no-results input.search-submit.screen-reader-text, .error404 input.search-submit.screen-reader-text {
+    border: 1px solid #3b8ec6;
+    border-radius: 0px;
+    height: 40px;
+    vertical-align: top;
+    background-color: #2282c3;
+    color: #ffffff;
+    font-size: 10px;
+    padding: 0px 12px;
+}
+section.no-results.not-found {
+    text-align: center;
+}
+.page .page.type-page div.post-thumbnail img {
+    width: 20%;
+    height: auto;
+}
+.page .page.type-page h1.entry-title {
+    font-size: 16px;
+    margin-top: 10px;
+}
+.page .page.type-page div.post-thumbnail {
+    margin-top: 20px;
+}
+section.error-404.not-found {
+    margin-bottom: 50px;
+}
+.search.search-results article {
+    border: 1px dashed #000;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+li.mobile-menu { display: none; }
+.is-sticky div#stk {
+    left: 0px;
+    right: 0px;
+    background-color: rgba(0,0,0,.95);
+    z-index: 9999;
+}
+.is-sticky nav {
+    margin-bottom: 0px;
+}
+.navbar-inverse {
+    border: 0px;
+    border-radius: 0px;
+    background-color: transparent;
+}
+.main-wrap {
+	display: table;
+	height: 590px;
+	width: 100%;
+}
+.iner-wrap {
+	display: table-cell;
+	vertical-align: middle;
+}
+#myNavbar ul li a {
+    font-size: 10px;
+    color: #ffffff;
+    text-transform: uppercase;
+	padding: 10px 0px;
+}
+#myNavbar .navbar-nav>li {
+    padding: 0px 20px;
+}
+#myNavbar ul.nav.navbar-nav {
+    margin-top: 8px;
+}
+#myNavbar .navbar-nav>li:first-child {
+    padding-left: 0px;
+}
+div#myNavbar {
+    padding-left: 0px;
+}
+.main-row-top {
+    display: table;
+    margin: 0 auto;
+    padding-top: 8px;
+}
+.search input.form-control {
+    background-color: transparent;
+    border-radius: 0px;
+    width: 215px;
+    height: 28px;
+    margin-top: 12px;
+	font-size: 11px;
+    font-weight: 200;
+    color: #faf4f4;
+}
+.who p {
+    padding: 0px 10%;
+    text-align: center;
+	margin-bottom: 30px;
+	font-family: 'Lato', sans-serif;
+    color: #ffffff;
+    font-weight: 300;
+}
+.lang .selected{
+    width: 63px;
+    height: 17px;
+    
+    padding: 0px;
+    
+    text-transform: uppercase;
+    margin-top: 0px;
+    display: inline-block;
+    float: left;
+    margin-left: 0px;
+    
+    font-family: 'Montserrate', sans-serif;
+    font-weight: 300;
+	border: 0px;
+}
+.lang a.goog-logo-link {
+    display: none;
+}
+.lang .goog-te-gadget {
+    font-size: 0px;
+}
+.lang .gflag{display:none !important;}
+.lang .switcher {width: 100%;line-height: 9px;border-radius: 3px;}
+.lang .switcher .selected a{width: auto; font-size: 9px;color: #000000 !important;}
+.lang .switcher .option{width: auto;}
+.lang .switcher .option a{height:auto; font-size: 9px;color: #000000 !important;float: none;}
+.lang .switcher .option a.selected{background: #FFFFFF}
+.lang .switcher .option a:hover{background: #FFFFFF}
+.lang { 
+  width: 63px;
+  height:17px;
+    margin-top: 16px;
+    display: inline-block;
+    float: left;
+    margin-left: 20px;	
+}
+.sr {
+    display: inline-block;
+	float: left;
+	position: relative;
+}
+.sr div button {
+    position: absolute!important;
+    right: 0px;
+}
+.sr div button {
+    background-color: transparent;
+    border: 0px;
+    display: inline-block;
+    background-image: url(images/search.png);
+    width: 14px;
+	background-repeat: no-repeat;
+    border-radius: 0px;
+	z-index: 99!important;
+    background-position: center center;
+    bottom: 0px;
+    height: 27px;
+}
+.sr div button:hover, .sr div button:focus, .sr div button:active:focus  {
+    background-color: transparent;
+	outline: none;
+}
+.sr div button:active {
+    background-image: url('images/search.png');
+}
+.stick-logo {
+    display: none;
+}
+.is-sticky .stick-logo {
+    display: block;
+}
+.stick-logo {
+    float: left;
+	position: relative;
+	z-index: 99;
+    padding: 13px 0px 9px;
+}
+.stick-logo img {
+    width: 119px;
+    height: auto;
+}
+.is-sticky div#myNavbar1 {
+    padding: 7px 15px 10px;
+	position: relative;
+}
+.is-sticky div#myNavbar1 ul.nav.navbar-nav {
+    padding-top: 35px;
+	display: inherit;
+    margin: inherit;
+    float: right;
+}
+.is-sticky div#myNavbar1 .navbar-nav>li:last-child {
+    padding-right: 0px;
+}
+div#myNavbar1 ul.nav.navbar-nav {
+    display: table;
+    margin: 0 auto;
+    float: none;
+}
+div#myNavbar1 .navbar-nav>li>a {
+    color: #ffffff;
+    font-size: 14px;
+    text-transform: uppercase;
+	font-weight: 300;
+	padding: 0px;
+}
+div#myNavbar1 .navbar-nav>li {
+    padding: 0px 24px;
+}
+div#myNavbar1 {
+    padding-top: 15px;
+}
+h1.main-h1 {
+    font-family: 'Times New Roman';
+    font-size: 55px;
+    color: #ffffff;
+    font-weight: 400;
+    margin-top: 43px;
+	text-transform: uppercase;;
+}
+.who {
+    background-color: #000000;
+    font-family: 'Lato', sans-serif;
+    text-align: center;
+	padding: 107px 0px 70px;
+	position: relative;
+	margin-top: -2px;
+}
+h2 {
+    font-size: 35px;
+    font-weight: 300;
+    font-family: 'Lato', sans-serif;
+    color: #ffffff;
+    margin: 0px;
+    margin-bottom: 30px;
+	text-transform: uppercase;
+}
+p {
+    margin: 0px;
+    color: #ffffff;
+    line-height: 24px;
+    font-family: 'Lato', sans-serif;
+    margin-bottom: 37px;
+	font-weight: 300;
+}
+.cust-btn {
+    font-family: 'Lato', sans-serif;
+    color: #ffffff;
+    font-weight: 300;
+    background-color: transparent;
+    border-radius: 0px;
+    text-transform: uppercase;
+    font-size: 12px;
+    padding: 10px 34px;
+}
+.cust-btn:hover, .con .cust-btn:hover {
+    background-color: #122e47;
+    color: #ffffff!important;
+}
+.brand {
+    text-align: center;
+    padding: 94px 0px 125px;
+	position: relative;
+}
+.triangle {
+    /*background-image: url('images/triangle1.png');*/
+    background-position: top center;
+    height: 423px;
+    background-repeat: no-repeat;
+    display: table;
+    width: 422px;
+}
+.triangle1 {
+    /*background-image: url('images/triangle.png');*/
+    background-position: top center;
+    height: 423px;
+    background-repeat: no-repeat;
+    display: table;
+    width: 422px;
+}
+.tri-iner {
+	    vertical-align: middle;
+    display: table-cell;
+}
+.padding-lf { 
+	padding:0px; 
+}
+.services {
+    text-align: center;
+    padding: 150px 0px 100px;
+}
+.services .cust-btn   { font-size: 15px;
+    padding: 8px 41px; }
+.services-triangle {
+    /*background-image: url('images/services.png');*/
+    background-position: top center;
+    height: 639px;
+    background-repeat: no-repeat;
+    display: table;
+    width: 638px;
+	margin: 0 auto;
+}
+.services-triangle p {
+    width: 57%;
+    margin: 0 auto;
+    padding-top: 5%;
+    font-size: 15px;
+    line-height: 22px;
+    padding-bottom: 50px;
+}
+.careers {
+    text-align: center;
+    padding: 0px 0px 0px;
+}
+.careers-triangle {
+    background-position: top center;
+    height: 809px;
+    background-repeat: no-repeat;
+    display: table;
+    width: 811px;
+    margin: 0 auto;
+}
+.careers-triangle p {
+    width: 52%;
+    margin: 0 auto;
+    padding-top: 5%;
+    font-size: 15px;
+    line-height: 22px;
+    padding-bottom: 22px;
+}
+.careers .cust-btn   { font-size: 15px;
+    padding: 8px 41px; }
+.contact {
+    padding: 126px 0px 50px;
+    text-align: center;
+}
+.copyright {
+    padding-bottom: 10px;
+}
+.copyright .brf {
+    border-top: 1px solid #2a3134;
+	margin-left: 15px;
+}
+a:hover { color: #48a9ff!important; }
+.aform {
+    width: 353px;
+    margin: 0 auto;
+	padding-top: 30px;
+}
+#wpcf7-f57-o1 .con input.wpcf7-form-control.wpcf7-submit {
+    font-family: 'Lato', sans-serif;
+    color: #dcdcdc;
+    font-weight: 300;
+    background-color: transparent;
+    border-radius: 0px;
+    text-transform: uppercase;
+    font-size: 15px;
+    padding: 8.5px 49.5px;
+    margin-top: 30px;
+    z-index: 9;
+    position: relative;
+    border: 1px solid #afafb1;
+}
+#wpcf7-f57-o1 .con .form-group input {
+    background-color: transparent;
+    border: 0px;
+    border-bottom: 1px solid #9fa0a1;
+    border-radius: 0px;
+    padding: 0px 0px 7px;
+    color: #b4b4b4;
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+    font-size: 15px;
+    width: 100%;
+    position: relative;
+    z-index: 9;
+}
+ .con .form-group input.wpcf7-form-control {
+    background-color: transparent;
+    border: 0px;
+    border-bottom: 2px solid #444444;
+    border-radius: 0px;
+    padding: 0px 0px 10px;
+    color: #b4b4b4;
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+    font-size: 15px;
+	width: 100%;
+	position: relative;
+    z-index: 9;
+}
+ .con .form-group textarea.wpcf7-form-control {
+    background-color: transparent;
+    border: 0px;
+    border-bottom: 2px solid #444444;
+    border-radius: 0px;
+    padding: 0px 0px 10px;
+    color: #b4b4b4;
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+    font-size: 15px;
+	width: 100%;
+	height: 117px;
+	position: relative;
+    z-index: 9;
+}
+ .con .form-group {
+    margin-top: 25px;
+}
+ #wpcf7-f57-o1 .con .form-group {
+    margin-top: 12px;
+}
+ .con .form-group input:focus,  .con .form-group textarea:focus, #wpcf7-f57-o1 .con .form-group input:focus, #wpcf7-f57-o1 .con .form-group textarea:focus   {
+  border-color: inherit;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+ .con .cust-btn, #wpcf7-f57-o1 .con .cust-btn {
+    font-family: 'Lato', sans-serif;
+    color: #ffffff;
+    font-weight: 300;
+    background-color: transparent;
+    border-radius: 0px;
+    text-transform: uppercase;
+    font-size: 15px;
+    padding: 9px 58px;
+    margin-top: 18px;
+}
+ .con select.wpcf7-form-control.wpcf7-select.wpcf7-validates-as-required {
+    background-color: transparent;
+    border: 0px;
+    border-bottom: 2px solid #444444;
+    border-radius: 0px;
+    padding: 0px 0px 10px;
+    color: #b4b4b4;
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+    font-size: 15px;
+    width: 100%;
+	z-index: 99;
+    position: relative;
+}
+ .con input.wpcf7-form-control.wpcf7-submit {
+    font-family: 'Lato', sans-serif;
+    color: #ffffff;
+    font-weight: 300;
+    background-color: transparent;
+    border-radius: 0px;
+    text-transform: uppercase;
+    font-size: 15px;
+    padding: 9px 58px;
+    margin-top: 18px;
+	z-index: 9;
+    position: relative;
+	border: 1px solid #999999;
+}
+span.wpcf7-not-valid-tip {
+    display: none;
+}
+.wpcf7-validates-as-required.wpcf7-not-valid {
+    border-bottom: 2px solid #f00!important;
+}
+.copyright p {
+    font-size: 12px;
+    color: #828282;
+    margin: 0px;
+}
+.social li a {
+    color: #5c5c5c;
+}
+ul.social {
+    margin: 0px;
+    float: right;
+}
+.social li {
+    display: inline-block;
+    margin: 0px 5px;
+}
+.social li:first-child {
+	    margin-left: 0px;
+}
+.social li:last-child {
+	    margin-right: 0px;
+}
+.conus li p {
+    margin: 0px;
+    font-size: 18px;
+    color: #e5e5e5;
+    line-height: 26px;
+}
+.clor, .conus p.clor {
+	color: #787878;
+}
+.conus li {
+    margin-bottom: 7px;
+}
+.copyright .col-md-7.zindex {
+	padding: 12px 0px 0px;
+}
+.copyright .col-md-5 {
+    padding: 0px;
+}
+.col-md-7.brf.zindex .col-md-7 {
+    padding-left: 0px;
+}
+.header-main .row  {
+    text-align: center;
+}
+nav.first-nav {
+    display: inline-block;
+    margin-bottom: 0px;
+	float: left;
+}
+.brand h2 {
+    margin-bottom: 0px;
+}
+.brand .col-md-10 {
+    position: relative;
+}
+.cycle-pager span.cycle-pager-active {
+    background: #5c5c5c!important;
+}
+.cycle-pager span {
+    font-size: 0;
+    width: 10px;
+    height: 10px;
+    display: inline-block;
+    color: #e6e6e6;
+    cursor: pointer;
+    background: transparent;
+    border-radius: 50%;
+    margin: 0 5px;
+    border: 1px solid #5c5c5c;
+}
+.ring {
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    bottom: 100px;
+    z-index: 999;
+}
+.parallax-window {
+    min-height: 400px;
+    background: transparent;
+}
+.secondbg { height: 2722px!important }
+.foot {
+    height: 1206px!important;
+	position: relative;
+}
+.position-left {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+	padding: 0px;
+}
+.position-right {
+    position: absolute;
+    right: 0px;
+    top: 0px;
+	padding: 0px;
+}
+.map {
+    background-image: url(images/map.png);
+    background-position: top right;
+    background-repeat: no-repeat;
+    height: 779px;
+    width: 100%;
+    position: absolute;
+    bottom: 0px;
+	right: 0px;
+}
+.mapp {
+    background-image: url(images/map.png);
+    background-position: bottom left;
+    background-repeat: no-repeat;
+    width: 45%;
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    height: 100%;
+}
+.map:after {
+    content: "";
+    background-color: #000;
+    width: 100%;
+    position: absolute;
+    top: -880px;
+    right: -113px;
+    height: 160%;
+    z-index: -1;
+    transform: rotate(46.3deg);
+}
+.mapp:after {
+    content: "";
+    background-color: #000;
+    width: 100%;
+    position: absolute;
+    top: -175px;
+    right: 0px;
+    left: 0px;
+    height: 100%;
+    z-index: -1;
+    bottom: 0px;
+}
+.tri-map {
+    position: absolute;
+    border-left: 177px solid transparent;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    border-top: 177px solid #000;
+    z-index: -1;
+} 
+.foot:after {
+    content: "";
+    position: absolute;
+    bottom: 0px;
+    border-left: 1000px solid transparent;
+    border-top: 1030px solid #000;
+    right: 0px;
+    width: 100%;
+    left: -15.3%;
+    z-index: -1;
+    height: 100%;
+    top: 0px;
+}
+footer {
+	position: relative;
+	overflow: hidden;
+}
+.black {
+    background-color: #000000;
+}
+.pd-bt { padding-bottom: 20px; }
+ .zindex{
+    z-index: 0;
+    position: relative;
+}
+.con2 {  
+    padding: 93px 0px 50px;
+}
+.llk {
+    color: #787878;
+}
+.llk a {
+    color: #e5e5e5;
+    border-bottom: 1px solid #878788;
+    padding-bottom: 1px;
+}
+.foot p a:hover {
+    color: #787878 !important;
+}
+.foot p a:hover {
+    color: #787878 !important;
+}
+.foot .llk a:hover {
+    color: #e5e5e5 !important;
+}
+.brand .cust-btn {
+    margin-top: -80px;
+    position: relative;
+    padding: 9px 41px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+    font-size: 14px;
+}
+.con select.wpcf7-select option {
+    color: #000000;
+}
+.thank h2 {
+    font-weight: 600;
+    color: #b4b4b4;
+    margin-bottom: 0px;
+    padding-top: 10px;
+}
+.careers-triangle .thank p {
+    color: #b4b4b4;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: normal;
+    padding-top: 30px;
+}
+/* For Parallax Footer Only */
+@media (min-width:1680px) and (max-width:1050px){ 
+div.foot:after {
+    left: -3.8%;
+}
+}
+@media (min-width:768px) and (max-width:1366px){ 
+	.foot:after {
+    left: -19.1%;
+}
+.page div.foot:after {
+    left: -17%;
+}
+}
+@media (min-width:800px) and (max-width:1280px){ 
+div.foot:after {
+    left: -24.8%;
+}
+.page div.foot:after {
+    left: -22.4%;
+}
+}
+/* End Parallax Footer */
+@media (min-width:980px) and (max-width:1030px){
+.careers-triangle {
+    width: 765px;
+    background-size: contain;
+}
+.services-triangle {
+    width: 590px;
+    background-size: contain;
+}
+.mainslid {
+    width: 365px;
+}
+.dia {
+    width: 260px;
+    height: 259px;
+}
+.mainslid .fm {
+    width: 375px;
+    height: 375px;
+    top: -60px;
+    left: -59px;
+}
+.page div.foot:after {
+    left: -41.3%;
+}
+.diamond {
+    width: 200px;
+    height: 200px;
+}
+.rot {
+    top: -25px;
+    left: -25px;
+    width: 240px;
+    height: 240px;
+}
+	.search input.form-control {
+    width: 125px;
+}
+.header-main {
+    height: 575px!important;
+}
+.main-wrap {
+    height: 375px;
+}
+h1.main-h1 {
+    font-size: 35px;
+	margin-top: 20px;
+}
+.logo img {
+    width: 150px;
+    height: auto;
+}
+div.foot:after {
+    left: -44.3%;
+}
+.t-head {
+    position: absolute;
+    width: 100%;
+}
+}
+@media (min-width:768px) and (max-width:979px){
+svg.clip-svg, svg.clip-svg2 {
+    display: none;
+}
+.clip-svg-inline {
+    position: relative;
+}
+.clip-svg-inline2 {
+    position: relative;
+    right: auto;
+    bottom: auto;
+    text-align: center;
+    overflow: initial;
+    width: 100%;
+    height: 300px;
+}
+.fft {
+    height: 1500px !important;
+}
+.con {
+    width: 60%;
+    margin: 0 auto;
+}
+.t-head {
+    margin-top: -66px;
+}
+ul.social {
+    float: none;
+}
+.page footer {
+    margin-top: 0px;
+}
+.page .foot {
+    height: 500px!important;
+}
+.page .contact.hiden {
+    display: none;
+}
+.page .contact.zindex.con2 {
+    padding: 50px 0px 50px;
+}
+.t-head h1 {
+    font-size: 28px;
+}
+.careers-page h2 {
+    font-size: 22px;
+}
+.careers-page {
+    padding-top: 50px;
+}
+.careers-page .panel-title a {
+    font-size: 14px;
+}
+.tabsul li {
+    font-size: 13px;
+}
+.btn-sty {
+    padding: 8.5px 55px;
+}
+.sty select, .sty input {
+    min-width: 175px;
+}
+	#myNavbar .navbar-nav>li {
+    padding: 0px 12px;
+}
+	.search input.form-control {
+    width: 125px;
+}
+div#myNavbar1 .navbar-nav>li>a {
+    font-size: 13px;
+}
+div#myNavbar1 .navbar-nav>li {
+    padding: 0px 18px;
+}
+h1.main-h1 {
+    font-size: 28px;
+    margin-top: 15px;
+}
+.main-wrap {
+    height: 320px;
+}
+.header-main {
+    height: 500px!important;
+}
+.secondbg {
+    height: 2450px!important;
+}
+.careers-triangle {
+    background-size: contain;
+	width: 100%;
+}
+.logo img {
+    width: 125px;
+    height: auto;
+}
+.who {
+    padding: 65px 0px 40px;
+}
+.brand .cust-btn {
+    margin-top: 60px;
+}
+.ring {
+    bottom: 65px;
+}
+.services {
+    padding: 50px 0px 100px;
+}
+.careers-triangle p {
+    padding-top: 0px;
+}
+.mapp {
+	width: 200%;
+}
+.contact.zindex.con2 {
+    padding: 10px 0px 50px;
+}
+.contact {
+    padding: 126px 0px 50px;
+}
+.foot {
+    height: 1140px!important;
+}
+.copyright .col-md-5 {
+    padding-right: 15px;
+}
+  .rot{width: 335px;height: 335px;}
+  .brands-page .col-md-4{margin-bottom: 15%;    height: 280px;}
+}
+
+@media (max-width:767px) {
+svg.clip-svg, svg.clip-svg2 {
+    display: none;
+}
+.clip-svg-inline {
+    position: relative;
+}
+.clip-svg-inline2 {
+    position: relative;
+    right: auto;
+    bottom: auto;
+    text-align: center;
+    overflow: initial;
+    width: 100%;
+    height: 300px;
+}
+.fft {
+    height: 1500px !important;
+}
+.con {
+    width: 80%;
+    margin: 0 auto;
+}
+	.t-head {
+    margin-top: -66px;
+}
+.page footer {
+    margin-top: 0px;
+}
+.page .foot {
+    height: 500px!important;
+}
+.page .contact.hiden {
+    display: none;
+}
+.page .contact.zindex.con2 {
+    padding: 50px 0px 50px;
+}
+.t-head h1 {
+    font-size: 28px;
+}
+.careers-page h2 {
+    font-size: 22px;
+}
+.careers-page {
+    padding-top: 50px;
+}
+.careers-page .panel-title a {
+    font-size: 14px;
+}
+.tabsul li {
+    font-size: 13px;
+}
+.btn-sty {
+    padding: 8.5px 55px;
+}
+.sty select, .sty input {
+    min-width: 175px;
+}
+	.stick-logo {
+    padding-top: 3px;
+    padding-left: 0px;
+}
+.stick-logo img {
+    width: 64px;
+    height: auto;
+}
+li.mobile-menu { display: block; }
+div#myNavbar {
+    padding-left: 15px;
+}
+div#stk {
+    padding: 0px;
+}
+#myNavbar .navbar-nav>li {
+    padding: 0px 12px;
+}
+	.search input.form-control {
+    width: 125px;
+}
+div#myNavbar1 .navbar-nav>li>a {
+    font-size: 13px;
+	text-align: left;
+}
+div#myNavbar1 .navbar-nav>li {
+    padding: 0px;
+}
+h1.main-h1 {
+    font-size: 25px;
+    margin-top: 12px;
+}
+.main-wrap {
+    height: 270px;
+}
+.header-main {
+    height: 450px!important;
+}
+.who {
+    padding: 60px 0px 40px;
+}
+.who p {
+    margin-bottom: 15px;
+}
+.secondbg {
+    height: 2170px!important;
+    padding-top: 50px;
+}
+.brand .cust-btn {
+    margin-top: 60px;
+}
+.ring {
+    bottom: 60px;
+}
+.careers-triangle {
+    background-size: contain;
+	width: 100%;
+}
+.careers-triangle {
+    height: 600px;
+}
+.services-triangle {
+    width: auto;
+    background-size: contain;
+}
+.services-triangle p {
+    padding-top: 0px;
+    padding-bottom: 20px;
+}
+.brand {
+    padding: 0px 0px 0px;
+}
+nav.first-nav {
+    position: absolute;
+    left: 20px;
+	z-index: 99;
+	display: none;
+}
+div#myNavbar1 ul.nav.navbar-nav {
+    display: block;
+    float: none;
+	padding: 10px 0px;
+}
+#myNavbar ul li a {
+    text-align: left;
+	padding: 3px 0px;
+}
+#myNavbar .navbar-nav>li {
+    padding: 0px;
+}
+.first-nav.navbar-inverse .navbar-toggle {
+    float: left;
+}
+#stk nav.navbar.navbar-inverse {
+    z-index: 99;
+    margin-bottom: 0px;
+}
+#stk .navbar-inverse .navbar-toggle {
+    position: absolute;
+    top: -56px;
+    right: 0px;
+}
+.is-sticky #stk .navbar-inverse .navbar-toggle {
+    position: inherit;
+    top: auto;
+    right: auto;
+}
+div#myNavbar1 {
+    padding-top: 0px;
+    background-color: rgba(0,0,0,.95);
+}
+.is-sticky div#myNavbar1 ul.nav.navbar-nav {
+    padding-top: 0px;
+    float: none;
+}
+.logo img {
+    width: 125px;
+    height: auto;
+}
+.services {
+    text-align: center;
+    padding: 100px 0px 50px;
+}
+.foot {
+    height: 1132px!important;
+}
+.contact {
+    padding: 70px 0px;
+}
+.contact.zindex.con2 {
+    padding-top: 0px;
+}
+.mapp {
+    width: 250%;
+}
+ul.social {
+    float: left;
+}
+  .rot{width: 335px;height: 335px;}
+  .brands-page .col-md-4{margin-bottom: 15%;    height: 280px;}
+}
+
+@media (max-width:480px) {
+  .diamond{width: 215px;height: 215px;}
+.rot {width: 280px;height: 280px;}
+  
+  html .formcraft-css .fc-form.fc-form-1 .form-element input[type="text"], html .formcraft-css .fc-form.fc-form-1 .form-element input[type="password"], html .formcraft-css .fc-form.fc-form-1 .form-element input[type="color"], html .formcraft-css .fc-form.fc-form-1 .form-element input[type="date"], html .formcraft-css .fc-form.fc-form-1 .form-element input[type="datetime"], html .formcraft-css .fc-form.fc-form-1 .form-element input[type="datetime-local"], html .formcraft-css .fc-form.fc-form-1 .form-element input[type="email"], html .formcraft-css .fc-form.fc-form-1 .form-element input[type="month"], html .formcraft-css .fc-form.fc-form-1 .form-element input[type="number"], html .formcraft-css .fc-form.fc-form-1 .form-element input[type="search"], html .formcraft-css .fc-form.fc-form-1 .form-element input[type="tel"], html .formcraft-css .fc-form.fc-form-1 .form-element input[type="tel"], html .formcraft-css .fc-form.fc-form-1 .form-element input[type="time"], html .formcraft-css .fc-form.fc-form-1 .form-element input[type="url"], html .formcraft-css .fc-form.fc-form-1 .form-element input[type="week"], html .formcraft-css .fc-form.fc-form-1 .form-element select, html .formcraft-css .fc-form.fc-form-1 .form-element textarea,html .Leasing-form .formcraft-css .fc-form .form-element-field27.form-element-type-customText{border-left: 1px solid #838383;}
+.mainslid {
+    width: 350px;
+}
+.dia {
+    width: 245px;
+    height: 244px;
+}
+.mainslid .fm {
+    width: 350px;
+    height: 350px;
+    top: -58px;
+    left: -62px;
+}
+.careers-page h2 {
+    font-size: 20px;
+}
+.careers-page h3 {
+    font-size: 18px;
+}
+.careers-page .panel-title a {
+    font-size: 13px;
+}
+.tabsul li {
+    font-size: 12px;
+}
+.btn-post {
+    font-size: 12px;
+}
+.t-head h1 {
+    font-size: 22px;
+}
+.page p {
+    font-size: 14px;
+}
+.page .foot {
+    height: 540px!important;
+}
+h1.main-h1 {
+    font-size: 22px;
+    margin-top: 10px;
+}
+.main-wrap {
+    height: 200px;
+}
+.logo img {
+    width: 125px;
+    height: auto;
+}
+.header-main {
+    height: 400px!important;
+}
+.who {
+    padding: 50px 0px 30px;
+}
+h2 {
+    font-size: 26px;
+}
+.who:after {
+    bottom: 60px;
+}
+.who p {
+    line-height: 20px;
+}
+.services-triangle p {
+    font-size: 0.9em;
+    line-height: 15px;
+    width: 65%;
+    padding-bottom: 12px;
+    padding: 5% 1% 2%;
+	    overflow: hidden;
+    max-height: 6.3em;
+    text-overflow: ellipsis;
+    white-space: pre-wrap;
+}
+.services-triangle {
+    max-height: 380px;
+}
+.services .cust-btn {
+    font-size: 0.7em;
+    padding: 1% 2%;
+	margin-top: 2%;
+}
+.services {
+    text-align: center;
+    padding: 60px 0px;
+}
+.careers-triangle p {
+    width: 57%;
+    padding-top: 10px;
+    font-size: 0.9em;
+    line-height: 15px;
+    padding-bottom: 12px;
+}
+.careers-triangle {
+    max-height: 365px;
+}
+.careers .cust-btn {
+    font-size: 0.7em;
+    padding: 1% 2%;
+}
+.secondbg {
+    height: 1608px!important;
+}
+/* band section*/
+.brand .col-md-10 {
+    padding: 0px;
+}
+.triangle1 {
+    height: 350px;
+    width: 100%;
+    background-size: cover;
+    min-width: 350px;
+}
+.triangle {
+    height: 350px;
+    width: 100%;
+    background-size: cover;
+    min-width: 350px;
+}
+.tri-iner img {
+    width: 130px;
+    height: auto;
+}
+html.js {
+    margin-top: 0px !important;
+}
+.foot {
+    height: 1111px!important;
+}
+.aform {
+    width: 175px;
+    min-height: 200px;
+    max-height: 200px;
+}
+#wpcf7-f57-o1 .con .form-group input {
+    padding: 0px 0px 3px;
+    font-size: 12px;
+}
+#wpcf7-f57-o1 .con .form-group {
+    margin-top: 0px;
+    margin-bottom: 10px;
+}
+#wpcf7-f57-o1 .con input.wpcf7-form-control.wpcf7-submit {
+    font-size: 12px;
+    padding: 3px 15px;
+    margin-top: 10px;
+}
+.wpcf7-response-output.wpcf7-display-none.wpcf7-validation-errors {
+    display: none!important;
+}
+img.ajax-loader {
+    width: 16px;
+    height: 16px;
+}
+.thank h2 {
+    font-size: 16px;
+}
+.careers-triangle .thank p {
+    font-size: 13px;
+    padding-top: 8px;
+}
+.mapp {
+    width: 300%;
+}
+}
+
+@media (max-width:320px) {
+.mainslid {
+    width: 300px;
+    height: 345px;
+}
+.dia {
+    width: 216px;
+    height: 216px;
+}
+.mainslid .fm {
+    width: 312px;
+    height: 312px;
+    top: -51px;
+    left: -51px;
+}
+.search input.form-control {
+    width: 100px;
+}
+.who p {
+    line-height: 18px;
+    font-size: 13px;
+}
+.who {
+    padding: 40px 0px 30px;
+}
+h1.main-h1 {
+    font-size: 18px;
+}
+.main-wrap {
+    height: 250px;
+}
+.header-main {
+    height: 375px!important;
+}
+h2 {
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+.triangle {
+    height: 300px;
+    min-width: 300px;
+}
+.triangle1 {
+    height: 300px;
+    min-width: 300px;
+}
+.services-triangle {
+    max-height: 300px;
+}
+.services-triangle p {
+    max-height: 6.1em;
+}
+.careers-triangle p {
+    overflow: hidden;
+    max-height: 6.9em;
+}
+.careers-triangle {
+    max-height: 300px;
+}
+.secondbg {
+    height: 1335px!important;
+}
+.contact {
+    padding: 58px 0px;
+}
+#wpcf7-f57-o1 .con .form-group {
+    margin-bottom: 5px;
+}
+}
+
